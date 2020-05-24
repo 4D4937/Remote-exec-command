@@ -1,4 +1,4 @@
-# install
+# Install
 ``` bash
 apt-get update
 apt-get install gcc g++ openssl libssl-dev python-dev python-pip libffi-dev
@@ -16,8 +16,8 @@ Options:
   --username=USERNAME  ssh user name
   --password=PASSWORD  ssh password
   --cmd=CMD            Commands to execute
-``` bash
-# example
+```
+# Example
 ``` bash
 python run_cmd.py --ip 192.168.1.22 --port 22 --username root --password 123456 --cmd "ls -l"
 ```
