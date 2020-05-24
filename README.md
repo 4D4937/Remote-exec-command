@@ -1,12 +1,22 @@
-# Remote-exec-command
-### install
+# install
 ``` bash
 apt-get update
 apt-get install gcc g++ openssl libssl-dev python-dev python-pip libffi-dev
-pip install pycrypto
-pip install paramiko
+pip install pycrypto paramiko
+git clone https://github.com/4D4937/Remote-exec-command
 ```
-### example
+# Usage
+remote.py [options]
+Options:
+  -h, --help           show this help message and exit
+  --ip=IPADDR          target host ip address
+  --ipfile=IPFILE      ip list file
+  --port=PORT          ssh port number
+  --username=USERNAME  ssh user name
+  --password=PASSWORD  ssh password
+  --cmd=CMD            Commands to execute
+
+# example
 ``` bash
 python run_cmd.py --ip 192.168.1.22 --port 22 --username root --password 123456 --cmd "ls -l"
 ```
