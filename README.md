@@ -7,6 +7,7 @@ git clone https://github.com/4D4937/Remote-exec-command
 ```
 # Usage
 remote.py [options]
+``` bash
 Options:
   -h, --help           show this help message and exit
   --ip=IPADDR          target host ip address
@@ -15,7 +16,7 @@ Options:
   --username=USERNAME  ssh user name
   --password=PASSWORD  ssh password
   --cmd=CMD            Commands to execute
-
+``` bash
 # example
 ``` bash
 python run_cmd.py --ip 192.168.1.22 --port 22 --username root --password 123456 --cmd "ls -l"
