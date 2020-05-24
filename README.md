@@ -19,7 +19,7 @@ Options:
 ```
 # Example
 ``` bash
-python run_cmd.py --ip 192.168.1.22 --port 22 --username root --password 123456 --cmd "ls -l"
+python remote.py --ip 192.168.1.22 --port 22 --username root --password 123456 --cmd "ls -l"
 ```
 ``` bash
 python remote.py --ip 192.168.7.19,192.168.7.20,192.168.10.177,192.168.73.145 --port 22 --username root --password 123456 --cmd "ls -l"
