@@ -27,3 +27,9 @@ python remote.py --ip 192.168.7.19,192.168.7.20,192.168.10.177,192.168.73.145 --
 ``` bash
 python remote.py --ipfile ip.txt --port 22 --username root --password 123456 --cmd "ls -l"
 ```
+#Error
+-bash: !”: event not found"
+``` bash
+set +H
+```
+set +H
