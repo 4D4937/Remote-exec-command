@@ -32,4 +32,3 @@ python remote.py --ipfile ip.txt --port 22 --username root --password 123456 --c
 ``` bash
 set +H
 ```
-set +H
